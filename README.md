@@ -1,6 +1,6 @@
 # Installing & Running podman on WSL2
 
-### Podman works great on WSL2 but there are a few tweaks needed to install and run it cleanly:
+### Podman is quickly overtaking Docker as everyone's favorite container engine, and works great on WSL2, but there are a few tweaks needed to install and run it cleanly:
 
 ### 1. Install & Start Ubuntu-20.04 WSL2 distro
 We will assume you know how to do this and instructions for this are everywhere so we are not going to cover this here.  The rest of this assumes you are running as the default non-root user in your WSL2 Ubuntu-20.04
