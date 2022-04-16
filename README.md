@@ -42,4 +42,4 @@ To fix `ERRO[0000] error joining network namespace for container` :
 sudo rm -rf /tmp/*
 echo "none  /tmp  tmpfs  defaults  0 0" | sudo tee -a /etc/fstab
 ```
-Shutdown the WSL instance and restart.  This makes /tmp a truly temporary mount that does not survive a restart and avoids podman getting locked up.
+Shutdown the WSL instance and restart.  This makes `/tmp` a truly temporary mount that does not survive a restart and avoids podman getting locked up.
