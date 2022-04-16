@@ -18,7 +18,7 @@ curl -L "https://download.opensuse.org/repositories/devel:/kubic:\
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install podman
+sudo apt-get install -y podman
 ```
 ### 3. Tweaks needed for  WSL2
 At this point podman will actually appear to work fine.  You can download images and run containers just like you would expect.  But there is a hidden problem waiting.
